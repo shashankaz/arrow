@@ -8,22 +8,22 @@ const AboutUs = () => {
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Our Mission</h2>
         <p className="text-gray-400 leading-relaxed">
-          At LFG, our mission is to empower creators,
-          influencers, and businesses with the tools and insights they need to
-          succeed in the digital space. Whether it's growing a YouTube channel,
-          optimizing social media strategies, or understanding analytics, we
-          strive to provide the best services to help you achieve your goals.
+          At LFG, our mission is to empower creators, influencers, and
+          businesses with the tools and insights they need to succeed in the
+          digital space. Whether it&apos;s growing a YouTube channel, optimizing
+          social media strategies, or understanding analytics, we strive to
+          provide the best services to help you achieve your goals.
         </p>
       </section>
 
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Our Story</h2>
         <p className="text-gray-400 leading-relaxed">
-          Founded in 2024, LFG started with a simple idea: to
-          make digital marketing and growth easier for content creators and
-          businesses. What began as a small team of passionate individuals has
-          now grown into a dedicated group of professionals who are committed to
-          providing cutting-edge solutions that drive success.
+          Founded in 2024, LFG started with a simple idea: to make digital
+          marketing and growth easier for content creators and businesses. What
+          began as a small team of passionate individuals has now grown into a
+          dedicated group of professionals who are committed to providing
+          cutting-edge solutions that drive success.
         </p>
       </section>
 
@@ -35,7 +35,7 @@ const AboutUs = () => {
             better ways to help our clients succeed.
           </li>
           <li>
-            <strong>Customer Success:</strong> Our clients' success is our
+            <strong>Customer Success:</strong> Our clients&apos; success is our
             success. We are committed to helping them achieve their goals.
           </li>
           <li>
@@ -63,11 +63,11 @@ const AboutUs = () => {
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Why Choose Us?</h2>
         <p className="text-gray-400 leading-relaxed">
-          We understand the challenges of growing a digital presence. That's why
-          we've developed a suite of services designed to simplify the process
-          and deliver real results. With a focus on quality, innovation, and
-          customer success, LFG is your partner in achieving
-          digital growth.
+          We understand the challenges of growing a digital presence.
+          That&apos;s why we&apos;ve developed a suite of services designed to
+          simplify the process and deliver real results. With a focus on
+          quality, innovation, and customer success, LFG is your partner in
+          achieving digital growth.
         </p>
       </section>
 
@@ -79,7 +79,7 @@ const AboutUs = () => {
           <a href="/contact" className="text-purple-500 hover:underline">
             Contact Us
           </a>{" "}
-          page. We're here to assist you on your journey to success.
+          page. We&apos;re here to assist you on your journey to success.
         </p>
       </section>
     </div>

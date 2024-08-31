@@ -30,8 +30,9 @@ const ContactUs = () => {
     <div className="max-w-3xl mx-auto p-8 pt-32">
       <h1 className="text-4xl font-bold mb-6">Contact Us</h1>
       <p className="mb-8">
-        Have any questions, feedback, or concerns? We'd love to hear from you.
-        Fill out the form below, and we'll get back to you as soon as possible.
+        Have any questions, feedback, or concerns? We&apos;d love to hear from
+        you. Fill out the form below, and we&apos;ll get back to you as soon as
+        possible.
       </p>
 
       <form onSubmit={handleSubmit} className="space-y-6">

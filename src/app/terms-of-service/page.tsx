@@ -16,9 +16,9 @@ const TermsOfService = () => {
         <h2 className="text-2xl font-semibold mb-4">1. Acceptance of Terms</h2>
         <p className="mb-4">
           By accessing or using our website, services, or products
-          (collectively, the "Services"), you agree to be bound by these Terms
-          of Service and our Privacy Policy. If you do not agree with these
-          terms, please do not use our Services.
+          (collectively, the &quot;Services&quot;), you agree to be bound by
+          these Terms of Service and our Privacy Policy. If you do not agree
+          with these terms, please do not use our Services.
         </p>
       </section>
 
@@ -63,10 +63,10 @@ const TermsOfService = () => {
         <p className="mb-4">
           All content, materials, and features available on our website and
           through our Services, including but not limited to text, graphics,
-          logos, and software, are the property of [Your Company Name] or its
-          licensors and are protected by copyright, trademark, and other
-          intellectual property laws. You may not use, reproduce, or distribute
-          any content from our Services without our express written permission.
+          logos, and software, are the property of LFG or its licensors and are
+          protected by copyright, trademark, and other intellectual property
+          laws. You may not use, reproduce, or distribute any content from our
+          Services without our express written permission.
         </p>
       </section>
 
@@ -86,11 +86,11 @@ const TermsOfService = () => {
           7. Disclaimers and Limitation of Liability
         </h2>
         <p className="mb-4">
-          Our Services are provided "as is" and without warranties of any kind,
-          either express or implied. We do not warrant that the Services will be
-          uninterrupted or error-free. To the fullest extent permitted by law,
-          we disclaim all liability for any damages, losses, or injuries arising
-          from your use of our Services.
+          Our Services are provided &quot;as is&quot; and without warranties of
+          any kind, either express or implied. We do not warrant that the
+          Services will be uninterrupted or error-free. To the fullest extent
+          permitted by law, we disclaim all liability for any damages, losses,
+          or injuries arising from your use of our Services.
         </p>
       </section>
 
@@ -99,7 +99,7 @@ const TermsOfService = () => {
         <p className="mb-4">
           These Terms of Service and any disputes arising out of or relating to
           them will be governed by and construed in accordance with the laws of
-          [Your Jurisdiction], without regard to its conflict of law principles.
+          India, without regard to its conflict of law principles.
         </p>
       </section>
 
@@ -108,8 +108,9 @@ const TermsOfService = () => {
         <p className="mb-4">
           We reserve the right to modify or update these Terms of Service at any
           time. When we do, we will post the revised terms on this page and
-          update the "Last Updated" date. Your continued use of our Services
-          after such changes constitutes your acceptance of the new terms.
+          update the &quot;Last Updated&quot; date. Your continued use of our
+          Services after such changes constitutes your acceptance of the new
+          terms.
         </p>
       </section>
 

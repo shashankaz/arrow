@@ -142,7 +142,9 @@ const PrivacyPolicy = () => {
       </section>
 
       <section className="my-8">
-        <h2 className="text-2xl font-semibold mb-4">8. Children's Privacy</h2>
+        <h2 className="text-2xl font-semibold mb-4">
+          8. Children&apos;s Privacy
+        </h2>
         <p className="mb-4">
           Our Services are not directed at individuals under the age of 13, and
           we do not knowingly collect personal information from children under
@@ -157,8 +159,8 @@ const PrivacyPolicy = () => {
         </h2>
         <p className="mb-4">
           We may update this Privacy Policy from time to time. When we do, we
-          will post the revised policy on this page and update the "Last
-          Updated" date. We encourage you to review this Privacy Policy
+          will post the revised policy on this page and update the &quot;Last
+          Updated&quot; date. We encourage you to review this Privacy Policy
           periodically to stay informed about how we are protecting your
           information.
         </p>
