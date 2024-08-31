@@ -1,13 +1,37 @@
+"use client";
+
 import Link from "next/link";
+import { PlaceholdersAndVanishInput } from "@/components/ui/placeholders-and-vanish-input";
+
+const placeholders = [
+  "Stay in the loop with us!",
+  "Get the latest updates delivered!",
+  "Join our community of insiders.",
+  "Be the first to know!",
+  "Unlock exclusive content!",
+  "Your inbox deserves this.",
+  "Subscribe for fresh insights!",
+  "Don’t miss out on news and tips.",
+  "Get inspired—sign up today!",
+  "Stay informed, stay ahead!",
+];
 
 const Footer = () => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    console.log(e.target.value);
+  };
+  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    console.log("submitted");
+  };
+
   return (
     <footer className="px-4 sm:px-8 md:px-16 lg:px-32 py-12 bg-black text-gray-100">
       <div className="flex items-center justify-center flex-col pb-28">
         <h4 className="text-2xl mb-4 text-gray-400">
           Subscribe to Our Newsletter
         </h4>
-        <form className="flex w-full max-w-sm border border-gray-300 rounded-lg overflow-hidden">
+        {/* <form className="flex w-full max-w-sm border border-gray-300 rounded-lg overflow-hidden">
           <input
             type="email"
             placeholder="Enter your email"
@@ -19,7 +43,14 @@ const Footer = () => {
           >
             Subscribe
           </button>
-        </form>
+        </form> */}
+        <div className="w-full max-w-sm">
+          <PlaceholdersAndVanishInput
+            placeholders={placeholders}
+            onChange={handleChange}
+            onSubmit={onSubmit}
+          />
+        </div>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-12">
