@@ -3,8 +3,10 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="px-4 sm:px-8 md:px-16 lg:px-32 py-12 bg-black text-gray-100">
-      <div className="flex items-center justify-center flex-col my-12">
-        <h4 className="text-2xl mb-4 text-gray-400">Subscribe to Our Newsletter</h4>
+      <div className="flex items-center justify-center flex-col pb-28">
+        <h4 className="text-2xl mb-4 text-gray-400">
+          Subscribe to Our Newsletter
+        </h4>
         <form className="flex w-full max-w-sm border border-gray-300 rounded-lg overflow-hidden">
           <input
             type="email"
@@ -30,27 +32,29 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link href="/services" className="text-gray-400 hover:text-gray-200">
+              <Link href="/about" className="text-gray-400 hover:text-gray-200">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services"
+                className="text-gray-400 hover:text-gray-200"
+              >
                 Services
               </Link>
             </li>
             <li>
-              <Link href="/pricing" className="text-gray-400 hover:text-gray-200">
-                Pricing
+              <Link href="/faq" className="text-gray-400 hover:text-gray-200">
+                FAQ
               </Link>
             </li>
+
             <li>
-              <Link href="/blog" className="text-gray-400 hover:text-gray-200">
-                Blog
-              </Link>
-            </li>
-            <li>
-              <Link href="/testimonials" className="text-gray-400 hover:text-gray-200">
-                Testimonials
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact" className="text-gray-400 hover:text-gray-200">
+              <Link
+                href="/contact"
+                className="text-gray-400 hover:text-gray-200"
+              >
                 Contact
               </Link>
             </li>
@@ -62,7 +66,7 @@ const Footer = () => {
           <ul className="flex flex-col gap-2">
             <li>
               <Link
-                href="https://www.facebook.com/yourprofile"
+                href="https://www.facebook.com/lfg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-gray-200"
@@ -72,7 +76,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="https://www.twitter.com/yourprofile"
+                href="https://www.twitter.com/lfg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-gray-200"
@@ -82,7 +86,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="https://www.instagram.com/yourprofile"
+                href="https://www.instagram.com/lfg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-gray-200"
@@ -92,7 +96,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="https://www.linkedin.com/yourprofile"
+                href="https://www.linkedin.com/lfg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-gray-200"
@@ -107,12 +111,18 @@ const Footer = () => {
           <h4 className="text-lg mb-4 font-bold">Legal</h4>
           <ul className="flex flex-col gap-2">
             <li>
-              <Link href="/privacy-policy" className="text-gray-400 hover:text-gray-200">
+              <Link
+                href="/privacy-policy"
+                className="text-gray-400 hover:text-gray-200"
+              >
                 Privacy Policy
               </Link>
             </li>
             <li>
-              <Link href="/terms-of-service" className="text-gray-400 hover:text-gray-200">
+              <Link
+                href="/terms-of-service"
+                className="text-gray-400 hover:text-gray-200"
+              >
                 Terms of Service
               </Link>
             </li>
