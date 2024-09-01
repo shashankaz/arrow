@@ -45,7 +45,7 @@ const Services = () => {
       id="services"
       className="flex flex-col items-center justify-center px-4 sm:px-8 md:px-16 lg:px-32 py-24"
     >
-      <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600">
+      <h1 className="text-4xl text-center font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600">
         How We Help You Grow
       </h1>
       <HoverEffect items={projects} />
