@@ -174,7 +174,7 @@ const PrivacyPolicy = () => {
         </p>
         <ul className="list-none pl-0 mt-4">
           <li>
-            <strong>Email:</strong> contact@lfg.com
+            <strong>Email:</strong> contact@relix.com
           </li>
           <li>
             <strong>Phone:</strong> +91 98765 43210

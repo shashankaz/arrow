@@ -63,7 +63,7 @@ const TermsOfService = () => {
         <p className="mb-4">
           All content, materials, and features available on our website and
           through our Services, including but not limited to text, graphics,
-          logos, and software, are the property of LFG or its licensors and are
+          logos, and software, are the property of Relix or its licensors and are
           protected by copyright, trademark, and other intellectual property
           laws. You may not use, reproduce, or distribute any content from our
           Services without our express written permission.
@@ -122,7 +122,7 @@ const TermsOfService = () => {
         </p>
         <ul className="list-none pl-0 mt-4">
           <li>
-            <strong>Email:</strong> contact@lfg.com
+            <strong>Email:</strong> contact@relix.com
           </li>
           <li>
             <strong>Phone:</strong> +91 98765 43210

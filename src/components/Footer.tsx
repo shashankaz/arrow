@@ -169,7 +169,7 @@ const Footer = () => {
 
       <div className="text-center mt-12">
         <p className="text-sm text-gray-400">
-          &copy; {new Date().getFullYear()} LFG. All rights reserved.
+          &copy; {new Date().getFullYear()} Relix. All rights reserved.
         </p>
       </div>
     </footer>

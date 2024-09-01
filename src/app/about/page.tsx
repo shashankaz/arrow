@@ -8,7 +8,7 @@ const AboutUs = () => {
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Our Mission</h2>
         <p className="text-gray-400 leading-relaxed">
-          At LFG, our mission is to empower creators, influencers, and
+          At Relix, our mission is to empower creators, influencers, and
           businesses with the tools and insights they need to succeed in the
           digital space. Whether it&apos;s growing a YouTube channel, optimizing
           social media strategies, or understanding analytics, we strive to
@@ -19,7 +19,7 @@ const AboutUs = () => {
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Our Story</h2>
         <p className="text-gray-400 leading-relaxed">
-          Founded in 2024, LFG started with a simple idea: to make digital
+          Founded in 2024, Relix started with a simple idea: to make digital
           marketing and growth easier for content creators and businesses. What
           began as a small team of passionate individuals has now grown into a
           dedicated group of professionals who are committed to providing
@@ -66,7 +66,7 @@ const AboutUs = () => {
           We understand the challenges of growing a digital presence.
           That&apos;s why we&apos;ve developed a suite of services designed to
           simplify the process and deliver real results. With a focus on
-          quality, innovation, and customer success, LFG is your partner in
+          quality, innovation, and customer success, Relix is your partner in
           achieving digital growth.
         </p>
       </section>
