@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Newsletter from "@/components/Newsletter";
 import Plan from "@/components/Plan";
 import Services from "@/components/Services";
 import Steps from "@/components/Steps";
@@ -12,6 +13,7 @@ const Home = () => {
       <Testimonials />
       <Steps />
       <Plan />
+      <Newsletter />
     </div>
   );
 };
